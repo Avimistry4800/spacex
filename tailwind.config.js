@@ -5,6 +5,7 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+
     screens: {
       sm: '640px',
       md: '768px',
@@ -26,6 +27,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+
     },
     spacing: {
       px: '1px',
@@ -804,6 +806,13 @@ module.exports = {
       40: '40',
       50: '50',
     },
+    extend: {
+      colors: {
+        'regal-blue': '#FCFDFF',
+        'regal-blues': '#F7F7F7',
+        'myBackgroundColor': '#F7F7F7'
+      }
+    }
   },
   variantOrder: [
     'first',
@@ -968,5 +977,7 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
