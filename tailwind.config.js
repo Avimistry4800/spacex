@@ -810,7 +810,8 @@ module.exports = {
       colors: {
         'regal-blue': '#FCFDFF',
         'regal-blues': '#F7F7F7',
-        'myBackgroundColor': '#F7F7F7'
+        'myBackgroundColor': '#F7F7F7',
+        'footerBg':'#EFEFEF'
       }
     }
   },
