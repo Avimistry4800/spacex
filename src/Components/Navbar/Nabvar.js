@@ -10,10 +10,10 @@ const Nabvar = () => {
 
                 </a>
                 <nav className="md:ml-auto md:ml-4 md:py-1 md:pl-4  flex flex-wrap items-center text-base justify-center">
-                    <a className="mr-5 hover:text-white">VISION & MISSION</a>
-                    <a className="mr-5 hover:text-gray-900 border-l-2 pl-6 border-gray-400">PROJECTS</a>
-                    <a className="mr-5 hover:text-gray-900 border-l-2 pl-6 border-gray-400">EQUIPE</a>
-                    <a className="mr-5 hover:text-gray-900 border-l-2 pl-6 border-gray-400">CONTACT</a>
+                    <a className="mr-5 hover:text-hoverNav">VISION & MISSION</a>
+                    <a className="mr-5 hover:text-hoverNav border-l-2 pl-6 border-gray-400">PROJECTS</a>
+                    <a className="mr-5 hover:text-hoverNav border-l-2 pl-6 border-gray-400">EQUIPE</a>
+                    <a className="mr-5 hover:text-hoverNav border-l-2 pl-6 border-gray-400">CONTACT</a>
                 </nav>
             </div>
         </header>

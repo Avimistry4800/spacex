@@ -811,7 +811,8 @@ module.exports = {
         'regal-blue': '#FCFDFF',
         'regal-blues': '#F7F7F7',
         'myBackgroundColor': '#F7F7F7',
-        'footerBg':'#EFEFEF'
+        'footerBg':'#EFEFEF',
+        'hoverNav' : '#88beec'
       }
     }
   },
