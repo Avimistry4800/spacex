@@ -808,8 +808,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        'regal-blue': '#FCFDFF',
-        'regal-blues': '#F7F7F7',
+        'regal-blue': '#3f608e',
+        'regal-blues': '#0865de',
+        'regal-bluess':'#002d69',
         'myBackgroundColor': '#F7F7F7',
         'footerBg':'#EFEFEF',
         'hoverNav' : '#88beec'
