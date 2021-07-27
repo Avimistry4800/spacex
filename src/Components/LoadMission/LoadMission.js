@@ -9,7 +9,9 @@ const LoadMission = ({ mission }) => {
     const { mission_patch_small, wikipedia } = mission.links;
 
     return (
-        <article className="flex flex-col bg-coolGray-50 border-2 mx-3 mb-6 shadow-md border-gray-50">            
+
+
+        <article className="flex  flex-col bg-coolGray-50 border-2 mx-3 mb-6 shadow-md border-gray-50">            
             <img alt="" className="object-cover w-auto p-8" src={mission_patch_small} />
             <div className="flex flex-col flex-1 p-6">
                 <small>
